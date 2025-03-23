@@ -1,0 +1,33 @@
+.headerLogo {
+    width: 45px;
+    height: 45px;
+}
+
+.logoLink {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* Обединить логотип и название.
+    Объединить стили для логотипа и названия
+*/
+
+.headerLogo:hover {
+    transform: scale(1.1);
+}
+
+.logoTitle {
+    font-size: 30px;
+    color: white;
+    margin-left: 20px;
+}
+
+.logoTitle:hover {
+    color: #ff00cc;
+}
+
+
+
+
