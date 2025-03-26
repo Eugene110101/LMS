@@ -5,7 +5,7 @@ import Autorization from '../Autorization/Autorization.jsx';
 function Navigation() {
     return (
         <>
-            <header className={styles.header_header}>
+            <header>
                 <div className={styles.headerSection}>
                     <div className={styles.logoContainer}>
                     <Logo />

@@ -1,0 +1,35 @@
+.autorizationButton {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+
+.autorizationButton:hover {
+    transform: scale(1.1);
+}
+
+.autorizationDescription {
+    text-decoration: none;
+    color: aliceblue;
+    cursor: pointer;
+    display: inline-block;
+    transition: color 0.3s ease-in-out;
+}
+
+.autorizationButton:hover .autorizationDescription {
+    color: #ff00cc;
+}
+
+.inputIcon {
+    width: 25px;
+    height: 25px;
+    filter: invert(1);
+}
+

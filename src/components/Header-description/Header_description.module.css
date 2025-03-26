@@ -1,9 +1,0 @@
-h1 {
-    color: #fff;
-    font-size: 50px;
-    font-weight: 900;
-}
-
-h1 span {
-    color: linear-gradient(to right, #ff00cc 0%, #3333ff 100%);
-}

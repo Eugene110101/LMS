@@ -1,0 +1,22 @@
+.container {
+    width: 640px;
+}
+
+.span {
+    color: aliceblue;
+    font-size: 60px;
+}
+
+.introductionTitle {
+    background: linear-gradient(to right, #ff00cc, #33ccff);
+    background-clip: text;
+    color: transparent; 
+    font-size: 60px;
+    margin-top: 20px;
+}
+
+.introductionSubtitle {
+    font-size: 20px;
+    color: aliceblue;
+    margin-top: 20px;
+}

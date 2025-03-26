@@ -1,10 +1,10 @@
 import styles from './Logo.module.css';
-import logo2 from '../../../assets/logo2.png';
+import logo from '../../../assets/logo.png';
 
 function Logo() {
     return (
         <a className={styles.logoLink} href="">
-            <img className={styles.headerLogo} src={logo2} alt="logo" />
+            <img className={styles.headerLogo} src={logo} alt="logo" />
             <h1 className={styles.logoTitle}>PurpleSchool</h1>
         </a>
     );

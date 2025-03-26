@@ -1,0 +1,27 @@
+.navigation {
+    width: 50%;
+}
+
+.navigationList {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+.navigationItem {
+    padding: 10px 20px;
+    border: 1px solid #ff00cc;
+    border-radius: 10px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.navigationLink {
+    text-decoration: none;
+    color: aliceblue;
+    display: inline-block;
+    transition: color 0.3s ease-in-out;
+}
+
+.navigationItem:hover {
+    background-color: #ff00cc;
+}

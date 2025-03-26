@@ -1,7 +1,3 @@
-.header_header {
-    width: 100%;
-    padding: 20px;
-}
 
 .logoContainer {
     flex-grow: 1;
@@ -26,6 +22,7 @@
     color: aliceblue;
     display: inline-block;
     font-size: 20px;
+    transition: color 0.3s ease-in-out;
 }
 
 .navLink:hover {
