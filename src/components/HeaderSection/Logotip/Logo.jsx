@@ -5,7 +5,7 @@ function Logo() {
     return (
         <a className={styles.logoLink} href="">
             <img className={styles.headerLogo} src={logo} alt="logo" />
-            <h1 className={styles.logoTitle}>PurpleSchool</h1>
+            <h1 className={styles.logoTitle}>IndigoScript</h1>
         </a>
     );
 }
